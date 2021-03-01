@@ -8,7 +8,7 @@ int main()
 
 {
 int shmid;
-char pathname[] = "Task1_1.c";
+char pathname[] = "Task1_2.c";
 key_t key;
 char *source_code;
 int file_size = 0;

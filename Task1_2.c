@@ -1,18 +1,14 @@
 #include <sys/types.h>
-
 #include <sys/ipc.h>
-
 #include <sys/shm.h>
-
 #include <stdio.h>
-
 #include <errno.h>
 
 int main()
 {
 int *array;
 int shmid;
-char pathname[] = "Task1_1.c";
+char pathname[] = "Task1_2.c";
 key_t key;
 char *source_code;
 int file_size = 0;
